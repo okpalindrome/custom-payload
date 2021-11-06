@@ -1,5 +1,6 @@
-Host Header Injection. Find a super list below:
-# Add something like 127.0 .0.1, localhost, 192.16 8.1.2, target .com or /admin, /console
+Host Header Injection.
+# Add something like 127.0.0.1, localhost, 192.168.1.2, targe.com or /admin, /console
+
 Client-IP:
 Connection:
 Contact:
@@ -25,7 +26,8 @@ X-Rewrite-URL:
 X-Wap-Profile:
 
 
-# 401/403 bypasses
+# 401/403 bypass headers
+
 Client-IP: 127.0.0.1
 Client-IP: localhost
 Forwarded-For-Ip: 127.0.0.1
@@ -57,6 +59,3 @@ X-Host: localhost
 X-HTTP-Host-Override: 127.0.0.1
 X-Originating-IP: 127.0.0.1
 X-Real-IP: 127.0.0.1
-
-
-X-Forwarde-Scheme
