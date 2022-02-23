@@ -59,3 +59,5 @@ X-Host: localhost
 X-HTTP-Host-Override: 127.0.0.1
 X-Originating-IP: 127.0.0.1
 X-Real-IP: 127.0.0.1
+X-Forwarded-From: 127.0.0.1
+x-forwarded-from: 127.0.0.1
