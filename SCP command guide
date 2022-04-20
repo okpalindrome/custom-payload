@@ -28,7 +28,7 @@ scp remote-username@remote-ip:/home/username/filename local-machine-desti-path -
 Need to enter remote machine’s password for the given user
 
 
-Case 4: If you have a public access key not a remote machine’s user password
+Case 4: If you have a public access key, not a remote machine’s user password
 
 //local machine
 scp remote-username@remote-ip:/home/username/filename local-machine-desti-path -i /path-to-public-key
